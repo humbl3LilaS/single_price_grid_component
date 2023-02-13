@@ -6,43 +6,61 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+<!--  style sheet import-->
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
-  Join our community
+<main>
+  <div class="grid-container">
+    <section class="section-info">
+      <h1 class="heading-primary heading-gray">Join our community</h1>
 
-  30-day, hassle-free money back guarantee
+      <p class="text-cta"><em>30-day, hassle-free money back guarantee</em></p>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+      <p class="text-info">
+        Gain access to our full library of tutorials along with
+        expert code reviews.
+        Perfect for any developers who are serious about honing their skills.
+      </p>
+    </section>
 
-  Monthly Subscription
+    <section class="section-price">
+      <h1 class="heading-primary">Monthly Subscription</h1>
 
-  &dollar;29 per month
+      <div class="price-text">
+        <p class="price">
+        <strong>&dollar;29</strong> <em>per month</em>
+      </p>
 
-  Full access for less than &dollar;1 a day
+        <p class="price-info">Full access for less than &dollar;1 a day</p>
+      </div>
 
-  Sign Up
+      <a href="#" class="btn btn-accent">Sign Up</a>
+    </section>
 
-  Why Us
+    <section class="section-testimonial">
+      <h1 class="heading-primary">Why Us</h1>
 
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+      <ul class="testimonial-contents">
+        <li>Tutorials by industry experts</li>
+        <li>Peer &amp; expert code review</li>
+        <li>Coding exercises</li>
+        <li>Access to our GitHub repos</li>
+        <li>Community forum</li>
+        <li>Flashcard decks</li>
+        <li>New videos every week</li>
+      </ul>
+    </section>
+  </div>
+
+</main>
   
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+                      target="_blank">Frontend Mentor</a>.<br>
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
